@@ -1,137 +1,17 @@
 body {
   background-color: #ffe6e6;
-  margin: 0;
-  text-align: center;
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
 hr {
   border-color: lightgray;
   border-style: none;
   border-top-style: dotted;
-  border-width: 6px;
+  border-width: 5px;
   width: 5%;
 }
 
-h1 {
-  color: #FF4d4d;
-  margin: 50px auto 0 auto;
-  font-family: 'Pacifico', cursive;
-  font-size: 4rem;
-  line-height: 2.0;
-}
+h1 {color: #FF4d4d;}
 
-h2 {
-  color: #FF8080;
-  font-family: 'Lato', sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
-  padding-bottom: 10px;
-}
+h3 {color: #FF8080;}
 
-h3 {
-  color: #FF9999;
-  font-family: 'Crimson Pro', serif;
-}
-
-p {
-  color: #220000;
-  font-family: 'Crimson Pro', serif;
-  line-height: 2;
-}
-
-a {
-  color: #FF0000;
-  font-family: 'Lato', sans-serif;
-  text-decoration: none;
-}
-
-a:hover { color: #AF0000; }
-
-.top-cloud {
-  position: absolute;
-  right: 200px;
-  top: 50px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 200px;
-  bottom: 300px;
-}
-
-.round {
-  border-radius: 100%;
-}
-
-.profile {
-  margin: 30px;
-}
-
-.intro {
-  width: 40%;
-  margin: auto;
-}
-
-.huskill {
-  width: 100px;
-  float: left;
-  margin-right: 20px;
-}
-
-.suitskill {
-  width: 100px;
-  float: right;
-  margin-left: 20px;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 30px auto;
-  text-align: left;
-}
-
-.topcontainer {
-  background-color: #FFCCCC;
-  position: relative;
-  padding-top: 100px;
-}
-
-.bottomcontainer {
-  background-color: #FFB3B3;
-  min-height: 80px;
-  padding: 10px 0 0;
-}
-
-.contact-me {
-  width: 50%;
-  margin: 30px auto;
-  padding: 0 0 10px;
-}
-
-.btn {
-  background: #FF9999;
-  background: linear-gradient(to bottom, #FF9999, #FF4D4D);
-  border-radius: 15px;
-  text-shadow: 1px 1px 3px #220000;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #FF6666;
-  text-decoration: none;
-}
-
-.footer-link {
-margin: 30px;
-font-size: 1.1rem;
-}
-
-.cp { color: #FFCCCC;
-  font-size: 0.75rem;
-   line-height: 1;
-   padding: 20px 0;
-margin-bottom: 0; }
+#circular { border-radius: 100%; }
